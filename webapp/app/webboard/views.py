@@ -22,4 +22,4 @@ def index():
 @login_required
 @permission_required(Permission.MODERATE_COMMENTS)
 def for_moderators_only():
-    return "For moerators only."
+    return "For moderator only."
